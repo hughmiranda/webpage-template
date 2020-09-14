@@ -1,0 +1,13 @@
+<div class="nav-bar">
+  <div class="nav-bar-logo">
+    <img src="../../assets/hm-white.png">
+  </div>
+  <div class="nav-bar-menu">
+    <ul>
+      <li *ngFor="let item of menuItems">
+        <a (click)="redirectTo(item.route)" routerLink="/{{item.route}}" routerLinkActive="active">{{item.name}}</a>
+      </li>
+    </ul>
+    <button>Sign up</button>
+  </div>
+</div>

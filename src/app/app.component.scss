@@ -1,0 +1,10 @@
+@import '../styles/constants';
+
+.router-container {
+  box-sizing: border-box;
+}
+
+.nav-bar-component {
+  position: fixed;
+  z-index: 1;
+}
